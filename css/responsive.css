@@ -1,0 +1,77 @@
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .burger-menu {
+        display: block;
+        font-size: 30px;
+    }
+
+    .burger-menu:hover {
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .banner-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-header-left {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .banner-header-right {
+        text-align: center;
+    }
+
+    .more-infos {
+        flex-direction: column;
+    }
+
+    .more-infos-left {
+        border-right: 0;
+        margin: 0 0 30px 0;
+    }
+
+    .more-infos-right {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    .app-logo img {
+        width: 90px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    nav {
+        font-size: 13px;
+    }
+
+    .header-right a {
+        padding: 7px 10px;
+    }
+
+    .banner-header-left {
+        font-size: 20px;
+        max-width: 50%;
+    }
+
+    .trial-start span {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .trial-start i {
+        padding: 8px;
+    }
+}
